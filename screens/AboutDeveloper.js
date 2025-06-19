@@ -51,16 +51,16 @@ export default function AboutDeveloper({ navigation }) {
 
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>Tech Stack Used</Text>
-        <Text style={styles.stackHeader}>Frontend (Mobile)</Text>
-        <Text style={styles.sectionText}>⚛️ React Native – Cross-platform app development</Text>
-        <Text style={styles.sectionText}>📦 Expo – App runtime and bundler</Text>
-        <Text style={styles.sectionText}>🧭 React Navigation – Stack + Drawer navigation</Text>
-        <Text style={styles.sectionText}>🧩 Reusable custom components</Text>
-        <Text style={styles.sectionText}>🎨 StyleSheet – Consistent styling</Text>
 
-        <Text style={styles.stackHeader}>Data</Text>
-        <Text style={styles.sectionText}>📄 AsyncStorage – Local routine saving</Text>
-        <Text style={styles.sectionText}>📚 Mock Data – Simulated patients list</Text>
+        <Text style={styles.stackHeader}>Frontend (Mobile)</Text>
+        <Text style={styles.sectionText}>⚛️ React Native – Built with Expo</Text>
+        <Text style={styles.sectionText}>📦 Expo – App bundler and dev toolchain</Text>
+        <Text style={styles.sectionText}>🧭 React Navigation – For screen routing</Text>
+        <Text style={styles.sectionText}>🎨 StyleSheet – For layout and styling</Text>
+        <Text style={styles.sectionText}>🧩 Reusable Components – Header, PrimaryButton</Text>
+
+        <Text style={styles.stackHeader}>Data Storage</Text>
+        <Text style={styles.sectionText}>📄 FileSystem & AsyncStorage – Local JSON-based user data storage</Text>
       </View>
 
       <TouchableOpacity style={styles.logoutButton} onPress={handleLogout}>
