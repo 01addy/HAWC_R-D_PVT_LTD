@@ -73,33 +73,31 @@ LoginApp/
 │
 ├── .gitignore
 └── README.md
+```
+---
 
-🚀 How to Run This App Locally
+## 🚀 How to Run This App Locally
+```plaintext
+
 1. Clone the Repository
-bash
-Copy
-Edit
 git clone https://github.com/your-username/LoginApp.git
 cd LoginApp
-2. Install Dependencies
-Make sure you have Node.js and Expo CLI installed.
 
-bash
-Copy
-Edit
-npm install
+2. Install Dependencies
+npm install [Make sure you have Node.js and Expo CLI installed.]
+
 3. Start the App
-bash
-Copy
-Edit
 npx expo start
+
 Then:
 
 Scan the QR Code from your phone using Expo Go
 
 Or run on emulator using i (iOS) or a (Android)
+```
+---
 
-📷 Preview
+##📷 Preview
 
 ![WhatsApp Image 2025-06-20 at 01 50 42_8fbf44f7](https://github.com/user-attachments/assets/98cc7927-7c7a-4c32-9298-f84da2205b8f)
 ![WhatsApp Image 2025-06-20 at 01 50 42_a6382d39](https://github.com/user-attachments/assets/1bfebc29-cf56-4e1c-aa00-22b664e9e017)
