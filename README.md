@@ -1,50 +1,107 @@
-# Welcome to your Expo app 👋
+# 🔐 LoginApp – React Native (Expo)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A clean and functional login/signup application built with **React Native (Expo)**. It stores user data locally and demonstrates basic authentication logic with screen navigation.
 
-## Get started
+---
 
-1. Install dependencies
+## 📱 App Features
 
-   ```bash
-   npm install
-   ```
+### 👤 Authentication
+- **Sign Up**
+  - Validates email & password format
+  - Stores user info in a local `.json` file
+- **Login**
+  - Checks user credentials from stored data
+  - Redirects to **About Developer** screen upon success
 
-2. Start the app
+### 👨‍💻 About Developer Screen
+- Highlights developer profile and resume link
+- Displays tech stack used in the project
+- Includes **Log Out** button
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 🔄 App Flow
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Start Screen → Sign Up or Login
+↓
+Login success → About Developer Screen
+↓
+User can Log Out and return to Login
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 💻 Tech Stack
 
-```bash
-npm run reset-project
-```
+### 🔧 Core Technologies
+- **React Native (Expo)** – Mobile UI framework
+- **Expo FileSystem** – To store user data locally
+- **React Navigation** – For screen routing and transitions
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 🎨 Styling & UI
+- **StyleSheet** – Consistent layout and design
+- **Custom Components** – `Header`, `PrimaryButton`, etc.
 
-## Learn more
+---
 
-To learn more about developing your project with Expo, look at the following resources:
+## 📁 Folder Structure
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+```plaintext
+LoginApp/
+├── App.js                      # Main app entry
+├── app.json                   # Expo config
+├── package.json               # Project metadata
+│
+├── backend/
+│   └── users.json             # Local storage of user credentials
+│
+├── components/
+│   ├── Header.js              # Reusable header component
+│   └── PrimaryButton.js       # Custom button component
+│
+├── screens/
+│   ├── LoginScreen.js
+│   ├── SignupScreen.js
+│   └── AboutDeveloper.js
+│
+├── utils/
+│   └── storage.js             # Read/write utility functions
+│
+├── assets/
+│   └── images/                # App icons, splash, etc.
+│
+├── .gitignore
+└── README.md
 
-## Join the community
+🚀 How to Run This App Locally
+1. Clone the Repository
+bash
+Copy
+Edit
+git clone https://github.com/your-username/LoginApp.git
+cd LoginApp
+2. Install Dependencies
+Make sure you have Node.js and Expo CLI installed.
 
-Join our community of developers creating universal apps.
+bash
+Copy
+Edit
+npm install
+3. Start the App
+bash
+Copy
+Edit
+npx expo start
+Then:
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Scan the QR Code from your phone using Expo Go
+
+Or run on emulator using i (iOS) or a (Android)
+
+📷 Preview
+
+![WhatsApp Image 2025-06-20 at 01 50 42_8fbf44f7](https://github.com/user-attachments/assets/98cc7927-7c7a-4c32-9298-f84da2205b8f)
+![WhatsApp Image 2025-06-20 at 01 50 42_a6382d39](https://github.com/user-attachments/assets/1bfebc29-cf56-4e1c-aa00-22b664e9e017)
+
+
