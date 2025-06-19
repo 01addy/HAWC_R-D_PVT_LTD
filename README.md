@@ -2,6 +2,7 @@
 
 A clean and functional login/signup application built with **React Native (Expo)**. It stores user data locally and demonstrates basic authentication logic with screen navigation.
 
+Short video - https://drive.google.com/file/d/1Y7zvEDNsFPvg-1pJK1VbtW1cEK6bf9Yn/view?usp=sharing
 ---
 
 ## 📱 App Features
@@ -98,8 +99,8 @@ Or run on emulator using i (iOS) or a (Android)
 ---
 
 ##📷 Preview
-
-![WhatsApp Image 2025-06-20 at 01 50 42_8fbf44f7](https://github.com/user-attachments/assets/98cc7927-7c7a-4c32-9298-f84da2205b8f)
 ![WhatsApp Image 2025-06-20 at 01 50 42_a6382d39](https://github.com/user-attachments/assets/1bfebc29-cf56-4e1c-aa00-22b664e9e017)
+![WhatsApp Image 2025-06-20 at 01 50 42_8fbf44f7](https://github.com/user-attachments/assets/98cc7927-7c7a-4c32-9298-f84da2205b8f)
+
 
 
